@@ -1,0 +1,8 @@
+version: "3.4"
+services:
+  v2ray:
+    build: "./v2ray"
+    ports:
+      - "12348:8888"
+    volumes:
+      - "./v2ray/etc:/etc/v2ray"
