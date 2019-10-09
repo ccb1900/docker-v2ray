@@ -6,4 +6,4 @@ services:
       - "12348:8888"
     volumes:
       - "./v2ray/etc:/etc/v2ray"
-    restart: true
+    restart: "true"
